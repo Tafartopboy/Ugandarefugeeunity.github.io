@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>RefugeeAid Connect</title>
+   <meta name="description" content="this is a Refugees website to connect lives and stories of refugees">
+   <meta name="author" content="RefugeeAid Connect">
+   
+   <meta property="og:title" content="We are refugees support and mobilization for refugees aid and community">
+   <meta property="og:type" content="website">
+   <meta property="og:description" content="RefugeeAid Connect are NGO Agency that help and fight for refugees law and more...">
+   
+   <link rel="icon" href="/favicon.ico">
+   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+   
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="flexbox5.css">
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to RefugeeAid Connect</h1>
+  </header>
+  
+   <ul class="container">
+     <li><a href="#">Home</a></li>
+     <li><a href="#">Blog</a></li>
+     <li><a href="#">Support</a></li>
+     <li><a href="#">About</a></li>
+   </ul>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #007acc;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.container {
+  background-color: #007acc;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:stretch;
+}
+
+.container li {
+  list-style-type: none;
+}
+
+.container a {
+  display: inline-block;
+  padding: 25px;
+  margin: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #007acc;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #D6AD60;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.refugee-stories {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.refugee-stories h2 {
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+}
+
+.story {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.story p {
+  font-size: 16px;
+  color: #122620;
+}
+
+.history-concerns {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0,2);
+  margin-top: 20px;
+}
+
+.history-concerns h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.history-concerns p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #black;
+}
+
+.history-table {
+  background-color: #007acc;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.history-table h3 {
+  font-size: 24px;
+  margin-botton: 10px;
+}
+
+.history-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.history-table th {
+  background-color: #005eaa;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.history-table td {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px;
+}
+
+.history-table tr:hover {
+  background-color: #005eaa;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  color: #000000;
+}
+
+th, td {
+  border: 1px solid #007acc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #808080;
+}
+
+tr:nth-child(even) {
+  background-color: #007acc;
+}
+
+h3, p {
+  text-align: center;
+  color: #000000;
+}
+
+
+footer {
+  background-color: #007acc;
+  color: white;
+  padding: 20 auto;
+  text-align: left;
+}
+
+.signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.signup-button {
+  background-color: #FFA500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.signup-button:hover {
+  background-color: #FF8000;
+}
+
+</style>
+
+<main>
+  <div>
+  <section class="hero">
+    <h2>Connecting Lives, Sharing Stories</h2>
+    <p>Join us in supporting and empowering refugees community.</p>
+    <a href="#" class="cta-button">Get Involved</a>
+  </section>
+  </div>
+  
+  <section class="refugee-stories">
+    <h2 style="border: inset">Refugee Stories</h2>
+    <p>Read these inspiring stories from refugees who have overcome challenges and built new lives:</p>
+    
+    <div class="story">
+      <h3>Surviving against the odds</h3>
+      <p>Meet Jane, a refugee from south sudan, she fled conflict and found safety in Uganda's refugees camp. with determination and support, she now runs a small business, providing for her family and contribute to her new community.</p>
+    </div>
+    
+    <div class="story">
+      <h3>Finding Hope Through Art</h3>
+      <p>Art has become a source of healing for Ahmed, an artist from Syria who sought refuge in Uganda, Through his artwork, he express his experiences, culture, and dreams for a brighter future.</p>
+    </div>
+  </section>
+  
+  <div>
+  <section class="history-concerns">
+    <h3 style="color: #007acc;"><u>History and Refugee Concerns</u></h3>
+    <p>Refugee around the world face numerous challenges, including fleeing conflict zones, persecution.The history of<br> Refugee movements dates back to various periods, but their concerns remain consistent - safety, shelter, food, and a chance to rebuild their lives.</p>
+  </section>
+  </div>
+  
+<!--a table with historical events-->
+  
+  <section class="history-table">
+    <h3>Historical Refugee Events</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1951</td>
+          <td>Establishment of the United Nations High Commissioner fro Refugees (UNHCR)</td>
+        </tr>
+        <tr>
+          <td>1980</td>
+          <td>Adoption of the United Nations Convention on the Status of Refugees</td>
+        </tr>
+        <tr>
+          <td>1990</td>
+          <td>Large-Scale displacement during the Balkans conflicts</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+    
+    <p>RefugeeAid Connect is dedicated to raising awareness of these issues and providing a platform to connect with organization and individuals willings to offer support.<br> Together, we can make a difference in the lives of refugees worldwide.</p>
+  
+    <h3>Historical Events</h3>
+    <table>
+      <tr>
+        <th>Year</th>
+        <th>Following Event</th>
+      </tr>
+      <tr>
+        <td>1951</td>
+        <td>Geneva Convention on Refugees adopted</td>
+      </tr>
+      <tr>
+        <td>1960</td>
+        <td>Independace of many African nations</td>
+      </tr>
+      <tr>
+        <td>1970</td>
+        <td>Cold War tensions</td>
+      </tr>
+      <tr>
+        <td>1980</td>
+        <td>Iran-Iraq War</td>
+      </tr>
+      <tr>
+        <td>1990</td>
+        <td>Dissolution of the Soviet Union</td>
+      </tr>
+      <tr>
+        <td>2007</td>
+        <td>Global finincial crisis</td>
+      </tr>
+    </table>
+    
+    <p>This table provides a snapshot of significant historical events from 1951 to 2007. each event played a crucial role in shaping the world
+    during its respective year. the events include international agreements, political developments, conflicts, and crisis that
+    had lasting impact on global affairs.</p>
+
+</main>
+      
+<footer>
+ <div>
+  <h2 style="text-align: center;">Sign Up for Our Updates</h2>
+  <p>Join our community and receive news updates.</p>
+  <form class="signup-form" action="/signup" method="POST">
+  <input class="signup-input" type="text" name="name" placeholder="Your Name" required minlenght="8">
+  <input class="signup-input" type="email" name="email" placeholder="Your Email" required>
+  <button class="signup-button" type="submit">Sign Up</button>
+  </form>
+ </div>
+ 
+  <p>&copy all right reserved RefugeeAid Connect 2023</p>
+  <p> Email: info@refugeeaidconnect.com</p>
+  <p>Back to Top <a href="#top" style="color: white;">Back to Top</a></p>
+ </div>
+</footer>
+</body>
+</html>
+   
+   
